@@ -28,7 +28,6 @@
                     <td><?php echo $row['high'];?></td>
                     <td><?php echo $row['latitude'];?></td>
                     <td><?php echo $row['longitude'];?></td>
-                    
 
                 </tr>
                 <?php }
