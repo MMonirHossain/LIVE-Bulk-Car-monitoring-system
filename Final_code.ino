@@ -5,9 +5,9 @@
 #include <SoftwareSerial.h>
 
 //Global Variable section for wifi and server
-const char* ssid = "ERSHAD";
-const char* password = "12345677";
-const char* serverName = "https://cars.gearlearn.com/config.php";
+const char* ssid = "WIFINAME";
+const char* password = "WIFIPassword";
+const char* serverName = "https://yourURL/config.php";
 unsigned long lastTime = 0;
 unsigned long timerDelay = 60000;
 static const int RXPin = 16, TXPin = 17;
